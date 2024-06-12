@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+}
+.react-p{
+    width:45vw;
+    position:absolute;
+}
+.react{
+    display:block;
+    margin:10px;
+    height:280px;
+}
+.react-donut{
+    width:45vw;
+    float:right;
+    margin-bottom:20px;
+}
+.nodejs-p{
+    margin-left:50vw;
+    width:45vw;
+    position:absolute;
+}
+.nodejs-donut{
+    margin-top:5px;
+}
+.react-p, .nodejs-p{
+    font-size: 1.2rem;
+    font-family: monospace;
+    text-align:left;
+}
+/* project list  */
+.project-img{
+    width:400px;
+    height:400px;
+    padding:10px;
+    border-radius:20px;
+    margin:0;
+}
+.project-scroll{
+    text-align: center;
+    margin:0;
+}
+.project-mid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-button{
+    background-color: blueviolet;
+    height:360px;
+    margin:0;
+    padding:10px;
+    margin-top:50px;
+    text-align: center;
+    padding-top:100px;
+
+    border-radius:12px;
+}
+.project-button:hover{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}

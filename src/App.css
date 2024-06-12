@@ -1,0 +1,21 @@
+.home{
+    display:block;
+    background-color:rgb(144, 238, 131);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    padding:5px 15px;
+}
+.home-p{
+    margin-top:50px;
+}
+.social-media{
+    width:50px;
+    margin:10px;
+    cursor: pointer;
+}
+.social-media-flex{
+    display:flex;
+    margin-top:100px;
+    align-items:center;
+    justify-content: center;
+}
