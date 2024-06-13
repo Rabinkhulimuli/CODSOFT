@@ -5,7 +5,8 @@ type Projects= {
     id:number,
     image:string,
     link:string,
-    name:string
+    name:string,
+    data:string
 }
 export default function Project(){
     const [num,setNum]=React.useState(0)
@@ -24,7 +25,8 @@ export default function Project(){
     }
     return (
         <>
-            <p>this is a project section</p>
+            <h1>Here are my works</h1>
+            <p>i have also worked on other project but some of them are these</p>
             <div className="project-mid">
                 <div className="project-button" onClick={()=> handleChange("next")} >
                         <p>P</p>
@@ -52,6 +54,10 @@ export default function Project(){
              </div>
             </div>
             
+            <div>
+                <h2>Description</h2>
+                <p>{project.data} </p>
+            </div>
             
         </>
     )

@@ -1,24 +1,31 @@
 import {Outlet,Link} from 'react-router-dom'
 import './nav_layout.css'
+import React from 'react'
+import Footer from './footer'
 export default function Layout(){
-
+    const styles={
+        display:'flex'
+    };
+    const [open,setOpen]=React.useState(false)
+    const toggle= ()=> setOpen((prev)=> prev?false:true)
     return (
         <>
-            <nav className="nav-layout">
+            <nav className="nav-layout" style={open?{height:"fit-content"}:{}} >
                     <p>Rabin Khulimuli</p>
-                    <div className='in-nav-layout' >
+                   <div>
+                   <div className="drop-down" style={open?{backgroundColor:"red",color:"white",marginLeft:"50px"}:{}} onClick={toggle} >Menu</div>
+                    <div className='in-nav-layout' style={open?styles:{}} >
                         <Link className='nav-b' to='/'>Home</Link>
                         <Link className='nav-b' to='skill' >Skills</Link>
-                        <Link className='nav-b' to='opensource'>Open Source</Link>
                         <Link className='nav-b' to='project'>Projects</Link>
-                        <Link className='nav-b' to='achievement'>Achievements</Link>
-                        <Link className='nav-b' to='blog'>Blogs</Link>
-                        <Link className='nav-b' to='talk'>Talks</Link>
+                        <Link className='nav-b' to='about'>About</Link>
                         <Link className='nav-b' to='contact' >Contact Me</Link>
+                        <Link className='nav-b' to='resume' >Resume</Link>
                     </div>
+                   </div>
             </nav>
             <Outlet/>
-            <footer>Connect me on </footer>
+            <Footer />
         </>
     )
 }

@@ -1,5 +1,6 @@
 body{
     background-color: aquamarine;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 .react-p{
     width:45vw;
@@ -40,10 +41,11 @@ body{
     text-align: center;
     margin:0;
 }
-.project-mid{
+.project-mid, .r-u-p{
     display:flex;
     justify-content: center;
     align-items: center;
+    gap:10px;
 }
 .project-button{
     background-color: blueviolet;
@@ -60,4 +62,76 @@ body{
     background-color: blue;
     color:white;
     cursor: pointer;
+}
+/* contact */
+.contact-img{
+    width:50px;
+    border-radius: 12px;
+    display:block;
+}
+.contact-main{
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.contact-d{
+    width:50vw;
+}
+.contact-d {
+    
+    width:110px;
+    font-size:1.5rem;
+    font-family: cursive;
+    text-align: center;
+}
+.r-contact{
+    margin-top:50px;
+}
+.r-i-contact{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.mid-c{
+    width: 100%;
+    text-align: center;
+    text-decoration: whitesmoke underline;
+}
+a{
+    text-decoration: none;
+}
+/* about */
+.about-img{
+    width:400px;
+    margin:10px;
+    border-radius: 12px;
+    float:left;
+}
+.bio{
+    text-align:justify;
+    height:500px;
+}
+/* resume */
+.resume-i{
+    width:400px;
+    display:block;
+}
+.resume-p{
+    display:block;
+    width:400px;
+    padding:10px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color:blanchedalmond;
+}
+.resume-p:hover{
+    background-color: rgb(210, 30, 30);
+}
+.mid-r{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
