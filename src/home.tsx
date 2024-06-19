@@ -18,8 +18,8 @@ export default function Home(){
                 </div>
                 <div className="social-media-flex">
                     <div>
-                    <a><img  className='social-media' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwH--J-ZMUg8puNfUxE6YXQi3yVHuAORDxow&s'/> </a>
-                    <a> <img className='social-media' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoq7XbNlxLpml-qAj0vaJX9dJU2g05KRUblQ&s' ></img> </a>
+                    <a href="https://www.instagram.com/rabin_kh12?igsh=OXI5aHJ0ZTFzNjNm&utm_source=qr" ><img  className='social-media' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwH--J-ZMUg8puNfUxE6YXQi3yVHuAORDxow&s'/> </a>
+                    <a href="https://www.linkedin.com/in/rabin-khulimuli-271016167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" > <img className='social-media' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoq7XbNlxLpml-qAj0vaJX9dJU2g05KRUblQ&s' ></img> </a>
                     
                     </div>
                 </div>

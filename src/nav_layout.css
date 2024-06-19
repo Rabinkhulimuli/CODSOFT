@@ -10,6 +10,7 @@
     border-radius: 12px;
     top:0;
     position:sticky;
+    z-index: 100;
 }
 .nav-layout p{
     font-size: 1.5rem;
@@ -51,14 +52,13 @@
     background-color: rgb(82, 79, 79);
 }
 .drop-down{
+    width:140px;
+    text-align: center;
     display:none;
     height:70px;
     background-color: aliceblue;
-    padding:25px 15px 20px 15px;
     border-radius: 12px;
     font-weight:900;
-    margin-top:2.5px;
-    margin-right:85px;
     margin-left:auto;
     cursor: pointer;
 }
@@ -69,13 +69,15 @@
    
     .drop-down{
         display:inline-block;
-        margin-left:18px;
+        padding-top: 25px;
     }
     .in-nav-layout{
         display:none;
         flex-direction:column;
         margin-left:auto;
-        margin-right:5px;
+        padding:0;
+        
+       
     }
     .nav-layout p{
         margin-right:auto;

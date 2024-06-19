@@ -3,7 +3,8 @@ import Chart from 'react-apexcharts'
 
 export default function Skill(){
   
-    return (<><div className='react'>
+    return (<div className="skill-f-a" >
+        <div className='react'>
             <h1>My Skills</h1>
             <div className='react-p' >
             <p>React is a declarative, efficient, and flexible
@@ -11,11 +12,13 @@ export default function Skill(){
                  React as Frontend web development.Here are my stats on React
                  </p>
             </div>
+            </div>
+            <div>
             <div className='react-donut' >
                 <Chart
                     type="donut"
-                    width={349}
-                    height={550}
+                    width={200}
+                    height={200}
                     series={[90,10]}
                     
                     options={{
@@ -37,11 +40,16 @@ export default function Skill(){
                                         }
                                     }
                                 }
+                    
+                               
                             }
                         },
                         dataLabels:{
                             enabled:false
-                        }
+                        },
+                        legend:{
+                            show:false
+                        },
                         
                     }}
 
@@ -51,20 +59,12 @@ export default function Skill(){
             </div>
             </div>
             <div>
-                <div className='nodejs-p'>
-                    <p>
-                    Node.js is an open-source and 
-                    cross-platform JavaScript runtime
-                     environment.Im currently using node
-                      js as backend web development.
-                      Here are my stats on React
-                    </p>
-                </div>
+                
                 <div className='nodejs-donut' >
                     <Chart
                         type='donut'
-                        width='349'
-                        height='550'
+                        width='200'
+                        height='200'
                         series={[70,30]}
                         options={{
                             labels:['Node js',"On going"],
@@ -87,11 +87,24 @@ export default function Skill(){
                             },
                             dataLabels:{
                                 enabled:false
+                            },
+                            legend:{
+                                show:false
                             }
                         }}
                     ></Chart>
                 </div>
-            
+                </div>
+                <div>
+                <div className='nodejs-p'>
+                    <p>
+                    Node.js is an open-source and 
+                    cross-platform JavaScript runtime
+                     environment.Im currently using node
+                      js as backend web development.
+                      Here are my stats on React
+                    </p>
+                </div>
     </div>
-    </>)
+    </div>)
 }

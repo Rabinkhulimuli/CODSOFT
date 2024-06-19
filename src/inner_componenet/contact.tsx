@@ -15,29 +15,30 @@ export default function Contact(){
                     <div className="r-i-contact">
                         
                         <div>
-                            <a href='' >
-                                <img className="contact-img" src='../../public/instagram.jfif '/>
+                            <a href='https://www.instagram.com/rabin_kh12?igsh=OXI5aHJ0ZTFzNjNm&utm_source=qr' >
+                                <img className="contact-img" src='/instagram.jfif '/>
                                 <p>Instagram</p>
                             </a>
                         </div>
                         <div>
-                           <a href="" >
-                                <img className="contact-img" src='../../public/linkedin.png '/>
+                           <a href="https://www.linkedin.com/in/rabin-khulimuli-271016167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" >
+                                <img className="contact-img" src='/linkedin.png '/>
                                 <p>Linkedin</p>
                            </a>
                         </div>
                     </div>
                         <h2 className="mid-c">OR</h2>
                     <div className="r-u-p">
-                        <img className="contact-img" src='../../public/phone.png'/>
-                        <p >Phone: 9860465452</p>
+                        <img className="contact-img" src='/phone.png'/>
+                        <p >+977 9860465452</p>
                     </div>
-                    
+                    <div>
+                     <a className='gmail-logo' href="https://mail.google.com/mail/?view=cm&to=khulimulirabin@gmail.com&su=SUBJECT&body=BODY&bcc=">
+                        <img  className="contact-img" src='/gmail.jfif'></img>
+                        </a>
+                    </div>
                         
-                    <div className="r-u-p">
-                        <img className="contact-img" src='../../public/gmail.jfif'></img>
-                        <p >Gmail:khulimulirabin@gmail.com</p>
-                    </div>
+                    
 
                 </div>
             </div>
