@@ -15,13 +15,13 @@ export default function Contact(){
                     <div className="r-i-contact">
                         
                         <div>
-                            <a href='' >
+                            <a href='https://www.instagram.com/rabin_kh12?igsh=OXI5aHJ0ZTFzNjNm&utm_source=qr' >
                                 <img className="contact-img" src='../../public/instagram.jfif '/>
                                 <p>Instagram</p>
                             </a>
                         </div>
                         <div>
-                           <a href="" >
+                           <a href="https://www.linkedin.com/in/rabin-khulimuli-271016167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" >
                                 <img className="contact-img" src='../../public/linkedin.png '/>
                                 <p>Linkedin</p>
                            </a>
